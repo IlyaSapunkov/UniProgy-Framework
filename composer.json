@@ -1,0 +1,27 @@
+{
+    "name": "IlyaSapunkov/UniProgy-Framework",
+    "description": "UniProgy PHP framework 2.0",
+    "keywords": ["uniprogy", "framework"],
+    "homepage": "http://www.uniprogy.com/",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "IlyaSapunkov/UniProgy-Framework": "*",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-apidoc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "uyii\\": ""
+        }
+    },
+    "bin": [
+        "uyii"
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/IlyaSapunkov/UniProgy-Framework"
+        }
+    ]
+}
